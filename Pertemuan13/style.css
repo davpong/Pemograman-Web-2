@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background-color: #222;
+}
+
+/* Header */
+.header{
+    background-color: #111;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.header h1{
+    color: white;
+}
+
+/* Container */
+.container{
+    width: 750px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 40px;
+}
+
+/* Judul */
+.container h2{
+    text-align: center;
+    color: orange;
+    margin-bottom: 35px;
+}
+
+/* Form */
+.form-group{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form-group label{
+    width: 220px;
+    font-size: 18px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea{
+    height: 80px;
+}
+
+/* Tombol */
+.button-group{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-group button{
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+}
+
+.submit{
+    background-color: green;
+}
+
+.cancel{
+    background-color: red;
+}
+
+/* Hasil */
+.hasil{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-left: 5px solid green;
+}
